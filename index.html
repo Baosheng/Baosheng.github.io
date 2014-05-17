@@ -106,14 +106,6 @@
 			dots: true,               //  Display dot navigation
 			fluid: false              //  Support responsive design. May break non-responsive designs
 		});
-	    var unslider = $('.banner').unslider();
-
-	    $('.unslider-arrow').click(function() {
-		var fn = this.className.split(' ')[1];
-
-		//  Either do unslider.data('unslider').next() or .prev() depending on the className
-		unslider.data('unslider')[fn]();
-	    });
 	</script>
 	<script src="./bootstrap/js/unslider.js"></script>
 	<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
