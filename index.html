@@ -70,15 +70,41 @@
 		<h1>Hello, world!</h1>
 		<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
 		<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-	
+	<div class="banner">
+	    <ul>
+		<li>This is a slide.</li>
+		<li>This is another slide.</li>
+		<li>This is a final slide.</li>
+	    </ul>
+	</div>
 	<div class="well">
 		<h2>Welcome to my homepage .</h2>
 	</div>
   
   </div>
   <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
-    <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
+	<script>
+	    $('.banner').unslider({
+			speed: 500,               //  The speed to animate each slide (in milliseconds)
+			delay: 3000,              //  The delay between slide animations (in milliseconds)
+			complete: function() {},  //  A function that gets called after every slide animation
+			keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+			dots: true,               //  Display dot navigation
+			fluid: false              //  Support responsive design. May break non-responsive designs
+		});
+	    var unslider = $('.banner').unslider();
+
+	    $('.unslider-arrow').click(function() {
+		var fn = this.className.split(' ')[1];
+
+		//  Either do unslider.data('unslider').next() or .prev() depending on the className
+		unslider.data('unslider')[fn]();
+	    });
+	</script>
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script src="//unslider.com/unslider.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+	<script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
   </body>
 </html>
