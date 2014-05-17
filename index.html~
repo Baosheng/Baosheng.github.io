@@ -66,14 +66,16 @@
 
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        
-      </footer>
-    </div>
-
-    
-
+  <div class="page-header">
+        <h1>Wells</h1>
+      </div>
+      <div class="well">
+        <p>Welcome to my homepage .</p>
+      </div>
+  </div>
+  <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>
   </body>
 </html>
