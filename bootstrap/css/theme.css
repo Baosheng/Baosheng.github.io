@@ -1,6 +1,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
+  background-image:'./images/sunset.jpg';
 }
 
 .theme-dropdown .dropdown-menu {
