@@ -71,10 +71,10 @@
                         <img src="images/1.jpg">
                     </div>
                     <div id="slide11" class="slide image" style="display: block; left: -380px;">
-                        <img src="images/2.jpg">
+                        <img src="images/wood.jpg">
                     </div>
                     <div id="slide12" class="slide image" style="display: block; left: 0px;">
-                        <img src="images/3.jpg">
+                        <img src="images/subway.jpg">
                     </div>
                 </div>
 
