@@ -82,7 +82,7 @@
 				</div>
 			</li>
 
-			<li style="background-image: url('images/subway.jpg');">
+			<li style="background-image: url('images/subway.jpg');height:500px;">
 				<div class="inner">
 					<h1>开源</h1>
 					<p>Unslider的所有源码都托管在GitHub上。</p>
