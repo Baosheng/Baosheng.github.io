@@ -98,8 +98,8 @@
 	<script src="http://cdn.bootcss.com/holder/2.0/holder.min.js"></script>	
 	<script src="./bootstrap/js/jquery.event.move.js"></script>
 	<script src="./bootstrap/js/jquery.event.swipe.js"></script>
-
-	<script src="./unslider.min.js"></script>
+	<script src="./bootstrap/js/unslider.js"></script>
+	<script src="./bootstrap/js/unslider.min.js"></script>
 	<script>
 		if(window.chrome) {
 			$('.banner li').css('background-size', '100% 100%');
