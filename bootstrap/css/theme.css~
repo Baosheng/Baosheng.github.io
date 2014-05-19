@@ -135,3 +135,11 @@ body {
 			cursor: pointer;
 		}
 
+
+
+
+#main-content
+{
+	border:solid;
+}
+
