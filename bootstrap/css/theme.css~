@@ -36,7 +36,7 @@ body {
 	}
 	.banner ul li {
 		display: block;
-		border:solid white 5px;;
+		border:solid white 5px;
 		float: left;
 		width: 33%;
 		min-height: 350px;
