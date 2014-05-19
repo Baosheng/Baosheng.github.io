@@ -141,8 +141,20 @@ body {
 
 #main-content
 {
-	border:solid black 5px;
+	border:none;
 	padding:0px;
 	margin:0px;
 }
 
+#main-content ul
+{
+	padding:0px;
+	margin:0px;
+}
+
+#main-content ul li
+{
+	padding:0px;
+	margin:0px;
+	border:solid black 5px;
+}
